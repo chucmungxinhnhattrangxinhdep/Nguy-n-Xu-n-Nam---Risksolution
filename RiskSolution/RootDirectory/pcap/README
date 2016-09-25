@@ -1,0 +1,6 @@
+This directory contains a set of .pcap files from the DARPA dataset. The files have been obtained as follows:
+-> The five days of HTTP traffic from the DARPA dataset have been merged and then splitted in two parts of equal size (50%:50%)
+-> The second part is the file test.pcap
+-> The first part has been further splitted in:
+	-> training.pcap (595000 packets, used to train classifiers)
+	-> validationNormal.pcap (approximately 8000 packets used to estimate thresholds) 

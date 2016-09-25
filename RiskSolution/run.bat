@@ -1,0 +1,1 @@
+java -Xmx3G -Djava.library.path=.\ -cp dist\lib\gnu.getopt.jar;dist\lib\jpcap.jar;dist\lib\libsvm.jar;dist\RiskSolution.jar ui.risksolution.pocadUI 
